@@ -5,6 +5,7 @@ drawing_board.bgcolor("orange")
 drawing_board.title("interactive drawing board")
 
 turtle_instance = turtle.Turtle()
+color_list = ["yellow","orange","blue","gray","cyan","red"]
 
 def turtle_forward():
     turtle_instance.right(45)
